@@ -1,0 +1,11 @@
+image: boileaum/jupyter
+
+pages:
+  script:
+    - ./create_slides.sh
+    only:
+    - master
+  artifacts:
+    paths:
+      - public
+
